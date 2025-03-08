@@ -1,0 +1,29 @@
+{
+  "name": "scheduler_orchestration_tool",
+  "version": "1.0.0",
+  "description": "it the schedule the script and manage their orchestration",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/he-kishor/Scheduler_Orchestration_Tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/he-kishor/Scheduler_Orchestration_Tool/issues"
+  },
+  "homepage": "https://github.com/he-kishor/Scheduler_Orchestration_Tool#readme",
+  "devDependencies": {
+    "inquirer": "^12.4.3",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
